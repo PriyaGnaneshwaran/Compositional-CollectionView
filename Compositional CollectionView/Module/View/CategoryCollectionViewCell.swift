@@ -1,13 +1,13 @@
 //
-//  MainCollectionViewCell.swift
+//  CategoryCollectionViewCell.swift
 //  Compositional CollectionView
 //
-//  Created by Priya Gnaneshwaran on 17/05/25.
+//  Created by Priya Gnaneshwaran on 18/05/25.
 //
 
 import UIKit
 
-class MainCollectionViewCell: UICollectionViewCell {
+class CategoryCollectionViewCell: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

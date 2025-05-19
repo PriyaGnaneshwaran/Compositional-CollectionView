@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell" customModule="Compositional_CollectionView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="146" height="213"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="146" height="213"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PuD-ky-3tg">
+                        <rect key="frame" x="0.0" y="0.0" width="146" height="213"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wedding" translatesAutoresizingMaskIntoConstraints="NO" id="Dhh-GU-7JJ">
+                                <rect key="frame" x="0.0" y="0.0" width="146" height="213"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wedding Experts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2I-TO-Lfk">
+                                <rect key="frame" x="8" y="184" width="130" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Dhh-GU-7JJ" firstAttribute="top" secondItem="PuD-ky-3tg" secondAttribute="top" id="6EQ-WJ-1lH"/>
+                            <constraint firstItem="d2I-TO-Lfk" firstAttribute="leading" secondItem="PuD-ky-3tg" secondAttribute="leading" constant="8" id="EHx-5R-hQA"/>
+                            <constraint firstAttribute="bottom" secondItem="Dhh-GU-7JJ" secondAttribute="bottom" id="L7Y-65-PGL"/>
+                            <constraint firstAttribute="bottom" secondItem="d2I-TO-Lfk" secondAttribute="bottom" constant="8" id="OfO-jb-PnD"/>
+                            <constraint firstAttribute="trailing" secondItem="d2I-TO-Lfk" secondAttribute="trailing" constant="8" id="YUR-tn-ppE"/>
+                            <constraint firstAttribute="trailing" secondItem="Dhh-GU-7JJ" secondAttribute="trailing" id="acZ-Na-S8c"/>
+                            <constraint firstItem="Dhh-GU-7JJ" firstAttribute="leading" secondItem="PuD-ky-3tg" secondAttribute="leading" id="xhs-pA-GaX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="PuD-ky-3tg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="GXc-Zg-fd4"/>
+                <constraint firstAttribute="trailing" secondItem="PuD-ky-3tg" secondAttribute="trailing" id="N5G-td-zmn"/>
+                <constraint firstAttribute="bottom" secondItem="PuD-ky-3tg" secondAttribute="bottom" id="P9m-X1-lHE"/>
+                <constraint firstItem="PuD-ky-3tg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="d2j-SQ-2WQ"/>
+            </constraints>
+            <size key="customSize" width="146" height="213"/>
+            <point key="canvasLocation" x="141.98473282442748" y="77.112676056338032"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="wedding" width="124" height="192"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
